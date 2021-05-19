@@ -1,0 +1,120 @@
+@charset "UTF-8" ;
+
+*{margin: 0;padding: 0;}
+
+li{list-style: none;}
+a{text-decoration: none;}
+
+html{height: 100%; 
+	overflow: hidden;
+background: url('../img/background.png');
+background-size: cover;
+position: relative;
+}
+
+body{
+	font-family: ;
+	width: 960px;height: 550px;
+	position: absolute;top: 50%; left: 50%;
+	margin-top: -275px; margin-left: -480px;
+	background: url('../img/center_background.png' )no-repeat;
+}
+
+#title{
+	position: absolute;left: 0;top: -48px;
+	width: 240px; height: 48px;
+	overflow: hidden;
+}
+
+#title h1{
+	position: absolute;left: 0;top: 48px;
+	width: 240px; height: 48px; border-radius: 5px;
+	background-color: pink;
+	opacity: 0.8;
+	transition-duration: 1s;
+}
+
+#title h1.active{top: 0;}
+
+#container{
+	height: 500px; width: 100%; padding: 0 40px;margin-left: -40px;
+	position: relative; 
+	overflow: hidden;
+}
+/**************/
+div[data-name]{
+	position: absolute;left: 40px; top: 500px;
+	width: 960px;height: 500px;
+	transition-duration: 2s;
+}
+
+div[data-name].active{
+	top: 0;
+}
+
+div[data-name=main] img{
+	position: absolute;left: -50px;bottom: 0;
+}
+
+div[data-name=information] img{
+	position: absolute;left: 20px; top: 20px;
+}
+
+div[data-name=information] div{
+	position: absolute;left: 45px; top: 30px; width: 480px;
+}
+
+div[data-name=character] a{
+	display: block;
+	width: 40px; height: 40px;
+	background: url('../img/arrow_images.png');
+	text-indent: -9999px;
+	position: absolute;top: 50%; margin-top: -20px;
+}
+div[data-name=character] a:nth-child(1){left:10px; background-position: 0 -40px;}
+
+div[data-name=character] a:nth-child(2){
+	
+	right: 10px; 
+}
+
+div[data-name=character] article {
+	width: 960px; height: 500px;
+	position: absolute;left: 0; top: 500px;
+	transition-duration: 2s;
+}
+
+div[data-name="character"] .show{
+	top: 0;
+}
+
+
+article{position: relative;}
+article h1{position: absolute;left: 90px;top: 40px; font-size: 30px;}
+article img{position: absolute; left: 100px; top: 120px; border-radius: 10px;
+box-shadow: 0 5px 10px 0;}
+
+article p{position: absolute; left: 400px; top: 110px; width: 500px;}
+/*버튼 */
+/*a{z-index: 99;}*/
+
+#main_navigation ul{}
+
+#main_navigation ul li{
+	float: left; background-color: pink;
+	margin-right: 2px
+}
+
+#main_navigation ul li a{
+	color: white;text-align: center;
+	font-size: 20px;
+	display: block;
+	width: 236px;height: 50px;line-height: 50px;
+	box-sizing: border-box;
+	;
+}
+#main_navigation ul li:hover a{
+	font-weight: bold;
+}
+
+
