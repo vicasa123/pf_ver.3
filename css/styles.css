@@ -1,4 +1,4 @@
-@charset "UTF-8";  
+@charset "UTF-8";   
 /*!
 * Start Bootstrap - Freelancer v6.0.6 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2021 Start Bootstrap
@@ -10285,6 +10285,26 @@ form .row:first-child .floating-label-form-group {
             overflow: hidden;
 
         }
+
+        #leftside{
+          position: absolute;left: 0;
+          width: 20px;
+          height: 350px;
+          background: #2c3e50;
+          z-index: 10;
+
+      }
+
+        #rightside{
+             position: absolute;right: 0;
+            width: 20px;
+            height: 350px;
+            background: #2c3e50;
+            z-index: 10;
+        }
+
+
+
         #merry{
             
             position: absolute;left: 50%;top: 30px;
@@ -10342,9 +10362,17 @@ form .row:first-child .floating-label-form-group {
           
         }
         .cell:hover img{
-            transform: scale(1.2) translateZ(-550px);
             filter: brightness(60%);
+            transform: scale(1.2) 
+            /**********/
+            translateZ(-600px);
+            /*animation-play-state: paused;*/
+            
+
         }
+
+        
+        #merry:hover{animation-play-state: paused;}
 
         .cell span{
           top: 50%;margin-top: -20px;
