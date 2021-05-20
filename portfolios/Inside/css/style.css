@@ -64,7 +64,7 @@ div[data-name=information] div{
 div[data-name=character] a{
 	display: block;
 	width: 40px;height: 40px;
-	background: url(../img/Arrow_Images.png);
+	background: url('../img/arrow_images.png');
 	text-indent: -9999px;
 	position: absolute;top: 50%;margin-top: -20px;
 }
