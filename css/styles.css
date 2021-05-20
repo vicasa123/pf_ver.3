@@ -10322,13 +10322,14 @@ form .row:first-child .floating-label-form-group {
             position: absolute;left: 0;top: 0;
             margin-left: -115px;
             /*****************/
-            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
         }
 
         .cell{
             margin-top: 30px;
             border-radius: 10px;
-            width:280px;height: 230px;
+            -webkit-width:280px;
+            -webkit-height: 230px;
             margin-bottom: 5px;
             cursor: pointer;
             position: relative;
