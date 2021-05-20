@@ -21,7 +21,7 @@ body{
 	position: absolute;top: 50%;left: 50%;
 	margin-top: -275px;margin-left: -480px;
 	width: 960px;height: 550px;
-	background: url('../img/Center_background.png') no-repeat;
+	background: url('../img/center_background.png') no-repeat;
 }
 #title{
 	position: absolute;left: 0;top: -48px;
