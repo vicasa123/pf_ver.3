@@ -10454,4 +10454,12 @@ form .row:first-child .floating-label-form-group {
 
 .minetxt{font-size: 16px;}
 
-#contact{height: 260px;}
+#contact{height: 350px;}
+
+#email{
+  display: flex; justify-content: center;
+  text-align: center;
+}
+
+#email h4{padding-right: 20px;}
+
