@@ -167,7 +167,6 @@ section:hover .logo{
 .logo img{
   /*position: absolute;*/
   /*flex:1;*/
-  height: 100px;
   vertical-align: center;
   /*height: 50%;*/
 }
@@ -244,7 +243,7 @@ section:hover .menu>ul>li>a{
     height: 30%;
   }
   .logo img{
-     height: 70px;
+     width: 80%;
   }
 
   .bookli img{
