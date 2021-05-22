@@ -10484,7 +10484,7 @@ body{background-color: #ECECEC;}
       font-size: 14px;
       position: relative;
       height: 40px;
-      width: 390px;
+      width: 340px;
     }
     
     .skill p{margin-top: 7px;}
@@ -10497,7 +10497,7 @@ body{background-color: #ECECEC;}
 
     .skillbox{
       border:1px solid #fff;
-      width: 250px; height: 25px;
+      width: 200px; height: 25px;
       position: absolute; 
       left: 95px;
     }
