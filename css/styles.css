@@ -10476,7 +10476,7 @@ form .row:first-child .floating-label-form-group {
 .portfolio-item{border:6px solid #2c3e50;}
 
 body{background-color: #ECECEC;}
-/*.mecolor{background-color: #FFC300 !important;}*/
+/*.mecolor{background-color:  !important;}*/
 
 
     .skill{
@@ -10492,11 +10492,14 @@ body{background-color: #ECECEC;}
     .skillname{
       position: absolute;
       left: 0;
+      text-align: right;
+      width: 80px;
     }
 
 
     .skillbox{
       border:1px solid #fff;
+      background: #fff;
       width: 200px; height: 25px;
       position: absolute; 
       left: 95px;
@@ -10513,8 +10516,17 @@ body{background-color: #ECECEC;}
 
     .skillpc1{width: 95%;}
     .skillpc2{width: 95%;}
-    .skillpc3{width: 60%;}
-    .skillpc4{width: 50%;}
+    .skillpc3{width: 65%;}
+    .skillpc4{width: 55%;}
+    .skillpc5{width: 90%;}
+    .skillpc6{width: 90%;}
+
+    .skillpc7{width: 98%; background-color: #568A00}
+    .skillpc8{width: 98%;background-color: #568A00}
+    .skillpc9{width: 98%;background-color: #568A00}
+    .skillpc10{width: 98%;background-color: #568A00}
+    .skillpc11{width: 98%;background-color: #568A00}
+    .skillpc12{width: 98%;background-color: #568A00}
 
     .pcnumber{
       display: inline-block;
