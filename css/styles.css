@@ -1,4 +1,4 @@
-@charset "UTF-8";  
+@charset "UTF-8";   
 
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 /*!
@@ -6112,6 +6112,7 @@ a.close.disabled {
 .bg-primary {
   /*background-color: pink !important;*/
   background-color: #ffd500 !important;
+  box-shadow: 1px 3px 3px #999;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
