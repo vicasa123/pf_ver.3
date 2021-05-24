@@ -6112,7 +6112,6 @@ a.close.disabled {
 .bg-primary {
   /*background-color: pink !important;*/
   background-color: #ffd500 !important;
-  box-shadow: 1px 3px 3px #999;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10535,6 +10534,8 @@ body{background-color: #ECECEC;}
       right: 0;
       /*left: 400px;*/
     }
+
+    .boxshadowing{box-shadow: 3px 3px 3px #999;}
 
 
 
