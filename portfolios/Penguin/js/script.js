@@ -18,7 +18,7 @@ $(document).ready(function(){
   					 'color': '#fff'})
 	});
 
-	$('#container').vgrid({
+	$('.container').vgrid({
 			time:400,
 			delay:30,
 	});

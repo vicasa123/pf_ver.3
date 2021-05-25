@@ -133,7 +133,7 @@ header{
 	margin-left: 20px;
 }
 
-#container div{
+.container div{
 	width: 400px;background: #fff;
 	box-shadow: 0 1px 1px #aaa;
 	padding:15px;
@@ -141,12 +141,12 @@ header{
 	margin: 15px;
 }
 
-#container div img{
+.container div img{
 	width:100%; padding-bottom: 15px; margin-bottom: 5px;}
 
-#container div h2{font-size: 1em; color: #0d2dff;}
+.container div h2{font-size:1.2em; line-height: 1.2; color: #0d2dff;}
 
-#container div p{
+.container div p{
 	font-size: 0.9em;color: #222; margin: 0; padding: 10px;}
 
 /***************************/
@@ -218,6 +218,58 @@ header{
 }
 
 /**********************************/
+.eventwrap1{
+	position: relative;
+	width: 100%;overflow: hidden;
+	height: 150px;
+}
+
+.eventwrap1 img{
+	position: absolute;
+	width: 100%;
+	min-width: 650px;
+	left: 0;top: 0;
+}
+
+.eventwrap1 span{
+	position: absolute;
+	color: #fff;
+	top: 50px;left: 20px;
+	font-size: 25px;
+}
+
+.eventwrap1 p{
+	position: absolute;
+	color: #fff;
+	top: 90px;left: 20px;
+}
+/***********/
+
+.eventwrap2{
+	width: 100%;
+	position: relative;
+	height: 150px;
+}
+.eventwrap2 p{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.eventwrap2 h3{
+	position: absolute;
+	top: 110px;
+	left: 20px;
+}
+
+.eventwrap2 span{
+	position: absolute;
+	top: 140px;
+	left: 20px;
+} 
+
+
+/***********************************/
 
 .footertop{
 	background: #333;
