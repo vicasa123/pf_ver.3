@@ -60,6 +60,18 @@ ul{list-style: none;}
 
 /******************************/
 
+header{
+	width: 100%;
+	background: #fff;
+	height: 160px;
+}
+
+.headerstick{
+	position: fixed;z-index: 10;
+	width: 100%;
+	background: #fff;
+}
+
 .headerbt{
 	position: relative;
 	width: 100%; height: 60px;line-height: 60px;
@@ -106,6 +118,8 @@ ul{list-style: none;}
 
 /****************************/
 
+/*.bodywrap{margin-top: 50px;}*/
+
 .bodywrap h1{
 	height: 100px;
 	line-height: 100px;
@@ -115,6 +129,7 @@ ul{list-style: none;}
 
 .bodywrap h2{
 	height: 80px;
+	line-height: 80px;
 	margin-left: 20px;
 }
 
@@ -143,11 +158,67 @@ ul{list-style: none;}
 	margin:0 auto;
 }
 
-.bookslide img{width: 200px;}
+.bookslide img{
+	width: 200px;
+}
 
 .ar_prev{color:red;}
 
 /***********************************/
+.authors{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.authors img{
+	flex: 1;
+	padding: 20px;
+	width: 200px;
+	border-radius: 50%;
+	transform: translateY(0deg);
+	cursor: pointer;
+	transition: 2s;
+}
+
+.authors img:hover{transform: rotateY(180deg);}
+
+
+/*************************************/
+
+.about_txt p{margin-left: 20px;}
+
+/*****************************************/
+
+.singleslide>div{
+	position: relative;
+	height: 800px;
+}
+
+.singleslide img{
+	position: absolute;top: 0;
+	height: 1000px;
+}
+
+.singleslide h3{
+	position: absolute;top: 350px; margin-left: 20px;
+	color: #fff;
+	font-size: 30px;
+}
+
+.shopbt{
+	position: absolute;
+	top: 420px; margin-left: 20px;
+	width: 100px; height: 30px;
+	background: #FF5533;
+	color: #fff;
+	border: none;
+}
+
+/**********************************/
+
 .footertop{
 	background: #333;
 	height: 160px;
