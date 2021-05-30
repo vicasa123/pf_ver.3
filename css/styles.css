@@ -10473,7 +10473,8 @@ form .row:first-child .floating-label-form-group {
 
 #email h4{padding-right: 20px;}
 
-.portfolio-item{border:6px solid #2c3e50;}
+.img-fluid{border:6px solid #2c3e50;}
+
 
 body{background-color: #ECECEC;}
 /*.mecolor{background-color:  !important;}*/
@@ -10535,7 +10536,9 @@ body{background-color: #ECECEC;}
       /*left: 400px;*/
     }
 
-    .boxshadowing{box-shadow: 3px 3px 3px #999;}
+    .boxshadowing{
+      box-shadow: 3px 3px 3px #999;
+    }
 
 
 
