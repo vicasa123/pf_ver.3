@@ -10540,8 +10540,19 @@ body{background-color: #ECECEC;}
       box-shadow: 3px 3px 3px #999;
     }
 
+    .name{transition: 0.5s;}
+
     .name:hover{
-      text-shadow: 3px 3px 3px #555;
+      text-shadow: 2px 2px 3px #555;
+    }
+
+    .fa-star{
+      transform: rotateY(0deg);
+      transition: 2s;
+    }
+
+    .fa-star:hover{
+      transform: rotateY(360deg);
     }
 
 
