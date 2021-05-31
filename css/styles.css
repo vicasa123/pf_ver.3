@@ -10540,5 +10540,9 @@ body{background-color: #ECECEC;}
       box-shadow: 3px 3px 3px #999;
     }
 
+    .name:hover{
+      text-shadow: 3px 3px 3px #555;
+    }
+
 
 
