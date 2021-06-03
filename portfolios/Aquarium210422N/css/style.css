@@ -27,6 +27,7 @@ a{	display: block;
 	position: absolute;
 	height: 1065.67px;
 }
+.bg_img:after{clear: both;content: "";display: block;}
 
 .bg_img video{
 	height: 100%;
@@ -41,8 +42,8 @@ input{vertical-align: middle;}
 	position: absolute; left: 0; top: 0;
 	background-color: rgba(0,0,0,0.5);
 	z-index: 10;
-
 		}
+#notice_wrap:after{display: block;content: "";clear: both;}
 
 .notice_up{
 	top: 100px;
@@ -101,9 +102,7 @@ header{
 	z-index: 4;
 }
 
-.top_topbox:after{
-	clear: both; display: block; content: "";
-}
+
 
 
 .top_topbox.on{
@@ -313,7 +312,7 @@ header{
 	top: 1045.67px;
 }
 
-.white:after{display: block;clear: both; content: "";}
+
 
 .white img{
 	vertical-align: middle;
@@ -386,7 +385,7 @@ position: relative;
 	float: left;
 }
 
-.frame:after{display: block;clear: both;content: "";}
+
 
 .frame_txt{
 	width: 600px;
@@ -490,9 +489,6 @@ top: 50%; margin-top: -50px;}
 
 }
 
-.hyetak:after{
-	display: block;clear: both;content: "";
-}
 
 .hyetak_txt{
 	width: 600px;
