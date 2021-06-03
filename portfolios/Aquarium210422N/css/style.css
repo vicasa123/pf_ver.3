@@ -100,6 +100,12 @@ header{
 	height: 110px;
 	z-index: 4;
 }
+
+.top_topbox:after{
+	clear: both; display: block; content: "";
+}
+
+
 .top_topbox.on{
 	border-bottom: 1px solid #ccc;
 }
@@ -298,6 +304,7 @@ header{
 
 
 .white{
+	float: left;
 	width: 100%;
 	height: 92px;
 	background: #fff;
@@ -305,6 +312,8 @@ header{
 	position: absolute;
 	top: 1045.67px;
 }
+
+.white:after{display: block;clear: both; content: "";}
 
 .white img{
 	vertical-align: middle;
@@ -374,7 +383,10 @@ position: relative;
 	overflow: hidden;
 	background: url("../img/img02.jpg");
 	background-size: cover;
+	float: left;
 }
+
+.frame:after{display: block;clear: both;content: "";}
 
 .frame_txt{
 	width: 600px;
@@ -474,7 +486,12 @@ top: 50%; margin-top: -50px;}
 	top: 1986.67px;
 	position: absolute;
 	color: #333;
+	float: left;
 
+}
+
+.hyetak:after{
+	display: block;clear: both;content: "";
 }
 
 .hyetak_txt{
@@ -557,7 +574,12 @@ footer{
 	position: absolute;
 	top: 2540.67px;
 	border-top: 1px solid #ccc;
-	bottom: 0;}
+	bottom: 0;
+	float: left;
+}
+footer:after{
+	display: block;clear:both;content: "";
+}
 
 .bottom{
 	width: 1200px;
