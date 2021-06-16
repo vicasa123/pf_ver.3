@@ -28,6 +28,8 @@ $(document).ready(function(){
 	});
 
 
+	// 리모컨************************
+
 	$('.remote').click(function(){
 		$('.remote_on').stop().slideToggle(500);
 	});
@@ -121,6 +123,65 @@ $('.roll_left').click(function(){
 // 
 
 // ************
+var countNum=0;
+$('.tsbox').click(function(){
+	// $('.top_navi').css('display','block');
+	$('.top2').stop().slideToggle();
+	$('.top_navi2').stop().toggle();
+	$('.menu2').stop().slideToggle();
+	// $('.tspan').css('backgroundColor','#555');
+
+		 countNum++;
+		 if (countNum%2==1) {openNav();}else{closeNav();}
+		 if (countNum%2==0) {countNum=0;}
+});
+
+	function openNav(){
+		$('.tswrap').children('span').eq(0).css({transform:'rotate(45deg)'
+			,position:'absolute'
+			,top:'7px',left:'25px',transition:'all 0.1s'});
+
+		$('.tswrap').children('span').eq(2).css({transform:'rotate(-45deg)'
+			,position:'absolute'
+			,top:'7px',left:'25px',transition:'all 0.1s'});
+
+		$('.tswrap').children('span').eq(1).css({
+			display:'none',transition:'all 0.1s'});
+		
+		$('.tspan').css('backgroundColor','#555');
+	};
+
+	function closeNav(){
+		$('.tswrap').children('span').eq(0).css({transform:'rotate(0deg)'
+			,position:'absolute',top:'0px'
+			,transition:'all 0.1s'});
+
+		$('.tswrap').children('span').eq(2).css({transform:'rotate(0deg)'
+			,position:'absolute',top:'20px'
+			,transition:'all 0.1s'});
+
+		$('.tswrap').children('span').eq(1).css({position:'absolute',top:'10px',right:'10px', 
+			display:'block',transition:'all 0.1s'});
+
+			$('.tspan').css('backgroundColor','#fff');
+	};
+
+	$('.navi2>li').click(function(){
+		$(this).find('.submenu2').stop().slideToggle();
+	});
+
+	// $('.navi2>li').mouseout(function(){
+	// 	$(this).find('.submenu2').stop().slideUp();
+	// });
+
+
+	
+
+
+
+
+
+
 
 
 });
