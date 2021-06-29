@@ -579,7 +579,7 @@ footer a{color: #222;}
 		width: 60%;
 		height: 30px;
 		border:1px solid #555;
-		border-radius: none;
+		border-radius: 0;
 	}
 
 	.search_pad button{
@@ -686,7 +686,7 @@ footer a{color: #222;}
 		width: 60%;
 		height: 30px;
 		border:1px solid #555;
-		border-radius: none;
+		border-radius: 0;
 	}
 
 	.search_pad button{
